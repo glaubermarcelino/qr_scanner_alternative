@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://github.com/glaubermarcelino/qr_scanner_alternative'
   s.license          = { :type => 'MIT', :file => '../LICENSE' }
   s.author           = { 'Glauber Marcelino' => 'gmsoft.informatica@gmail.com' }
-  s.source           = { :git => 'https://github.com/glaubermarcelino/flutter_barcode_scanner.git', :tag => s.version.to_s}
+  s.source           = { :git => 'https://github.com/glaubermarcelino/qr_scanner_alternative.git', :tag => s.version.to_s}
   s.source_files = '**/Classes/**/*.{swift,h,m}'
   s.public_header_files = '**/Classes/**/*.h'
   s.resources = '**/Assets/**/*.png'
