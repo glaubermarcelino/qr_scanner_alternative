@@ -98,12 +98,12 @@ Here in `scanBarcode`,
 
 ### Continuous scan
 * If you need to scan barcodes continuously without closing camera use `QrScannerAlternative.getBarcodeStreamReceiver`
-params will be same like `FlutterBarScannerAlterative.scanBarcode`
+params will be same like `QrScannerAlternativePlugin.scanBarcode`
 e.g. 
 
 
 ```
-QrScannerAlternative.getBarcodeStreamReceiver("#ff6666", "Cancel", false, ScanMode.DEFAULT)
+QrScannerAlternativePlugin.getBarcodeStreamReceiver("#ff6666", "Cancel", false, ScanMode.DEFAULT)
          .listen((barcode) { 
          /// barcode to be used
          });

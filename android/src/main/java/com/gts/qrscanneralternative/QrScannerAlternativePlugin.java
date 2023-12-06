@@ -84,7 +84,7 @@ public class QrScannerAlternativePlugin implements MethodCallHandler, ActivityRe
         if (registrar.context() != null) {
             applicationContext = (Application) (registrar.context().getApplicationContext());
         }
-        FlutterBarScannerPlugin instance = new FlutterBarScannerPlugin((FlutterActivity) registrar.activity(), registrar);
+        QrScannerAlternativePlugin instance = new QrScannerAlternativePlugin((FlutterActivity) registrar.activity(), registrar);
         instance.createPluginSetup(registrar.messenger(), applicationContext, activity, registrar, null);
     }
 
