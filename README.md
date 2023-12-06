@@ -122,4 +122,4 @@ would :heart: to see any contribution, give :star:  if you like
 <a href="https://www.linkedin.com/in/glaubermarcelino/" rel="nofollow"><img src="https://github.com/glaubermarcelino/MyProfileRepo/blob/master/linked_in_logo.svg" width="36" height="36" style="max-width:100%;"></a>
 </p>
 
-E-mail: amol.gangadhare@gmail.com
+E-mail: gmsoft.informatica@gmail.com
