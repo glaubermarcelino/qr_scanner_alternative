@@ -125,8 +125,8 @@ public final class BarcodeCaptureActivity extends AppCompatActivity implements B
         imgViewBarcodeCaptureUseFlash.setOnClickListener(this);
         imgViewBarcodeCaptureUseFlash.setVisibility(QrScannerAlternativePlugin.isShowFlashIcon ? View.VISIBLE : View.GONE);
 
-        imgViewSwitchCamera = findViewById(R.id.imgViewSwitchCamera);
-        imgViewSwitchCamera.setOnClickListener(this);
+       /* imgViewSwitchCamera = findViewById(R.id.imgViewSwitchCamera);
+        imgViewSwitchCamera.setOnClickListener(this);*/
 
         mPreview = findViewById(R.id.preview);
         mGraphicOverlay = findViewById(R.id.graphicOverlay);
@@ -417,7 +417,7 @@ public final class BarcodeCaptureActivity extends AppCompatActivity implements B
             barcode.displayValue = "-1";
             QrScannerAlternativePlugin.onBarcodeScanReceiver(barcode);
             finish();
-        } else if (i == R.id.imgViewSwitchCamera) {
+        } /*else if (i == R.id.imgViewSwitchCamera) {
             int currentFacing = mCameraSource.getCameraFacing();
             int inverseFacing = getInverseCameraFacing(currentFacing);
             if (hasCamera(inverseFacing)) {
@@ -426,7 +426,7 @@ public final class BarcodeCaptureActivity extends AppCompatActivity implements B
                 createCameraSource(autoFocus, useFlash, getInverseCameraFacing(currentFacing));
                 startCameraSource();
             }
-        }
+        }*/
     }
 
     private boolean hasCamera(int cameraFacing) {
